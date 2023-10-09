@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td,
+tr {
+  border: 1px solid;
+  padding: 23px;
+}
+h1 {
+  text-align: center;
+}
