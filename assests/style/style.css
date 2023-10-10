@@ -3,18 +3,26 @@
   margin: auto;
   padding: 0;
   /* border: 1px solid red; */
-  background-color: burlywood;
+  /* background-color:#4e4e29; */
 }
+h1 {
+  text-align: center;
+  font-size: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+
 table {
   border-collapse: collapse;
   
 }
 td,
 tr {
-  padding: 23px;
-  border: 2px 2px solid;
-}
-h1 {
-  text-align: center;
-  font-size: 50px;
+  padding: 26px;
+  /* border-radius: 10px; */
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border:1px solid red; */
+  /* color:white; */
+  
+  
 }
