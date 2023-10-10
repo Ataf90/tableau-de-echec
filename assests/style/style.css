@@ -7,10 +7,12 @@
 }
 table {
   border-collapse: collapse;
+  
 }
 td,
 tr {
   padding: 23px;
+  border: 2px 2px solid;
 }
 h1 {
   text-align: center;

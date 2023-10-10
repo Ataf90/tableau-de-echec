@@ -6,11 +6,10 @@ document.body.appendChild(maTable);
 let maCellule = " ";
 
 // Génération des lignes de ma table
-// crée une tableau
+// crée une tableau qui compris tous les characters
 let alphalist = ["A", "B", "C", "D", "E", "F", "G", "H"];
-// crée un ligne pour insert row dans la function insertRow
 
-// function doLigne(lignes, maLignes) {}
+function doLigne(lignes, maLignes) {}
 for (let lignes = 0; lignes <= 8; lignes++) {
   let maLigne = document.createElement("tr");
   maTable.appendChild(maLigne);
@@ -19,6 +18,7 @@ for (let lignes = 0; lignes <= 8; lignes++) {
     // crreate un element nommer : "td"
     maCellule = document.createElement("td");
     // maCellule.textContent = (cellules * lignes).toString();
+    // condition pour crée les lignes
     if (cellules == 0 && lignes >= 1) {
       maCellule.textContent = lignes;
     } else {
@@ -30,6 +30,7 @@ for (let lignes = 0; lignes <= 8; lignes++) {
     if (lignes == 0) maCellule.style.backgroundColor = "";
     // suprimer le column
     //
+    //pour ajouter alphapete dans mon table table
     if (lignes == 0 && cellules >= 1) {
       maCellule.textContent = alphalist[cellules - 1];
     }
