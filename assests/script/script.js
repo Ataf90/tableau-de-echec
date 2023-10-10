@@ -31,6 +31,7 @@ for (let lignes = 0; lignes <= 8; lignes++) {
       maCellule.style.backgroundColor = "";
       maCellule.textContent = alphaList[cellules - 1];
     }
+    // appliquer ma cellule
     maLigne.appendChild(maCellule);
     // console.log("numéro de cellule/multiplicateur : ", lignes);
   }
