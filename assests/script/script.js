@@ -3,18 +3,21 @@ let maTable = document.createElement("table");
 
 document.body.appendChild(maTable);
 // je crée ma cellule est vide
+
 let maCellule = "";
 
 // crée une tableau qui compris tous les characters
-let alphaList = ["A", "B", "C", "D", "E", "F", "G", "H"];
+const alphaList = ["A", "B", "C", "D", "E", "F", "G", "H"];
+let maPoin = document.createElement("div");
 
-// function doLigne(lignes, maLignes) {}
+
+
 for (let lignes = 0; lignes <= 8; lignes++) {
   let maLigne = document.createElement("tr");
   maTable.appendChild(maLigne);
   // console.log("numéro de lignes/de table : ", lignes);
   for (let cellules = 0; cellules <= 8; cellules++) {
-    // crreate un element nommer : "td"
+    // crée ma tableau data
     maCellule = document.createElement("td");
     // maCellule.textContent = (cellules * lignes).toString();
     // condition pour crée les lignes
